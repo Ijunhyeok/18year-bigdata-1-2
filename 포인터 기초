@@ -29,7 +29,7 @@ int main(void) {
 	printf("간접참조 출력: %d %c\n", *ptrint, *ptrchar);
 
 	*ptrint = 200;
-	*ptrchar = 'b';
+	*ptrchar = 'B';
 	printf("직접참조 출력: %d %c\n", data, ch);
 
 	return 0;
