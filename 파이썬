@@ -1,5 +1,4 @@
 #정규 표현식과 XML
-
 import re
 
 data = """
@@ -25,3 +24,5 @@ shin, pass, fail
 
 p = re.compile("(\D{3}[,]\D{5})[,]\D{5}")
 print(p.sub("\g<1>, pass", data))
+
+#유니버셜 함수
