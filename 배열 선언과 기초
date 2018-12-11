@@ -90,3 +90,17 @@ int main(void) {
 
 	return 0;
 }
+////////////////////////////////////////////////////////
+#include <stdio.h>
+
+int main() {
+	double degree[] = { -5.34, 3.67, 19.76, 28.76, 35.63 }; //배열선언
+
+	int size = sizeof(degree) / sizeof(double); //배열전체 크기/배열공간 하나의 크기 = 40/8 = 5
+
+	for (int i = 0; i < size; i++) {
+		printf("%.2lf ", degree[i]);
+	}
+	여기에 puts(" ");가 들어간다. 왜인지는 잘....
+	return 0;
+}
